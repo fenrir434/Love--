@@ -8,19 +8,19 @@ let currentIndex = 0;
 const responses = [
     {
         text: "Really?",
-        gifUrl: "https://c.tenor.com/hGLpNUcqp6cAAAAC/tenor.gif",
+        gifUrl: "./images/image2.gif",
     },
     {
         text: "I love you too! 😘",
-        gifUrl: "https://media1.tenor.com/m/0M9CnkWhiKUAAAAC/hug-hugs-and-love.gif",
+        gifUrl: "./images/image3.gif",
     },
     {
         text: "Love you even more! ❤️",
-        gifUrl: "https://media1.tenor.com/m/HiZA6vKT24QAAAAC/iloveyou.gif",
+        gifUrl: "./images/image4.gif",
     },
     {
         text: "💖",
-        gifUrl: "https://media1.tenor.com/m/uFB7tkZq3QYAAAAd/heart-heartbeat.gif",
+        gifUrl: "./images/image5.gif",
     },
 ];
 
