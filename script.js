@@ -8,31 +8,30 @@ let currentIndex = 0;
 const responses = [
     {
         text: "Really?",
-        gifUrl: "./images/video2.mp4", // Update paths to MP4 files
+        gifUrl: "./images/image2.gif",
     },
+
     {
         text: "Love you even more! ❤️",
-        gifUrl: "./images/video3.mp4",
+        gifUrl: "./images/image3.gif",
     },
     {
         text: "I love you too! 😘",
-        gifUrl: "./images/video4.mp4",
+        gifUrl: "./images/image4.gif",
     },
     {
         text: "💖",
-        gifUrl: "./images/video5.mp4",
+        gifUrl: "./images/image5.gif",
     },
 ];
 
 yesBtn.addEventListener("click", () => {
     question.innerHTML = responses[currentIndex].text;
-    gif.src = responses[currentIndex].gifUrl; // Update video source
-    gif.play(); // Play the video when updated
+    gif.src = responses[currentIndex].gifUrl;
 
     currentIndex = (currentIndex + 1) % responses.length;
 });
 
-// Move button functionality remains the same
 const moveButton = () => {
     const noBtnRect = noBtn.getBoundingClientRect();
     const maxX = window.innerWidth - noBtnRect.width;
@@ -47,4 +46,7 @@ const moveButton = () => {
 };
 
 noBtn.addEventListener("mouseover", moveButton);
+
+// For mobile touch screens (since hover doesn't work)
 noBtn.addEventListener("touchstart", moveButton);
+//fixed
