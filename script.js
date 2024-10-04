@@ -10,12 +10,13 @@ const responses = [
         text: "Really?",
         gifUrl: "./images/image2.gif",
     },
+
     {
-        text: "I love you too! 😘",
+        text: "Love you even more! ❤️",
         gifUrl: "./images/image3.gif",
     },
     {
-        text: "Love you even more! ❤️",
+        text: "I love you too! 😘",
         gifUrl: "./images/image4.gif",
     },
     {
